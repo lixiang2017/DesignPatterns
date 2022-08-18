@@ -33,3 +33,14 @@ There are three kinds of Design Patterns:
 * [Visitor](/VisitorPattern)
 * [Mediator](/MediatorPattern)
 * [Proxy](/ProxyPattern)
+
+## Install requirements
+To install missing framework, download:
+### for MacOS X
+https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=2.1.0&arch=x64&rid=osx.10.15-x64
+### for all platforms
+https://dotnet.microsoft.com/zh-cn/download/dotnet/2.1/runtime?cid=getdotnetcore
+
+## How to run 
+`cd` to a certain pattern sub-folder, and `dotnet run`
+
