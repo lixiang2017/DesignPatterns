@@ -42,5 +42,5 @@ https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_v
 https://dotnet.microsoft.com/zh-cn/download/dotnet/2.1/runtime?cid=getdotnetcore
 
 ## How to run 
-`cd` to a certain pattern sub-folder, and `dotnet run`
+`cd` to a certain pattern sub-folder, and `dotnet run`. Or, you can use `batch_dotnet_run.sh` directly.
 
