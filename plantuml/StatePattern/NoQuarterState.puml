@@ -1,0 +1,11 @@
+@startuml
+class NoQuarterState {
+    + NoQuarterState(machine:GumballMachine)
+    + InsertQuarter() : void
+    + EjectQuarter() : void
+    + TurnCrank() : void
+    + Dispense() : void
+}
+IState <|-- NoQuarterState
+NoQuarterState --> "Machine" GumballMachine
+@enduml

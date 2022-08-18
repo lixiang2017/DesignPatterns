@@ -1,0 +1,5 @@
+@startuml
+class ChicagoPizzaFactory {
+}
+PizzaFactory <|-- ChicagoPizzaFactory
+@enduml

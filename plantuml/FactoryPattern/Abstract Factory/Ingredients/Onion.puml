@@ -1,0 +1,7 @@
+@startuml
+class Onion {
+    + Onion()
+    + Name : string <<get>>
+}
+IVeggies <|-- Onion
+@enduml

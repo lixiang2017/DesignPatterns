@@ -1,0 +1,5 @@
+@startuml
+class Coffee {
+}
+Beverage <|-- Coffee
+@enduml

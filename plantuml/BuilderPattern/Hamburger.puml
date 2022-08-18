@@ -1,0 +1,7 @@
+@startuml
+class Hamburger {
+    + Size : int <<get>> <<set>>
+    + Shape : string <<get>> <<set>>
+    + <<override>> ToString() : string
+}
+@enduml

@@ -1,0 +1,6 @@
+@startuml
+class QuackSqueak {
+    + Quack() : void
+}
+IQuackBehaviour <|-- QuackSqueak
+@enduml

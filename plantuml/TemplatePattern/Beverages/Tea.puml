@@ -1,0 +1,6 @@
+@startuml
+class Tea {
+    + <<new>> AddSugar : int <<set>>
+}
+Beverage <|-- Tea
+@enduml

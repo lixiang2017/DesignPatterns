@@ -1,0 +1,13 @@
+@startuml
+class WeatherMonitor <<sealed>> {
+    + Subscribe(provider:WeatherSupplier) : void
+    + Unsubscribe() : void
+    + WeatherMonitor(name:string)
+    + OnCompleted() : void
+    + OnError(error:Exception) : void
+    + OnNext(value:Weather) : void
+}
+class "IObserver`1"<T> {
+}
+"IObserver`1" "<Weather>" <|-- WeatherMonitor
+@enduml

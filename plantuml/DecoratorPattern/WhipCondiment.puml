@@ -1,0 +1,9 @@
+@startuml
+class WhipCondiment {
+    + WhipCondiment(beverage:Beverage)
+    + <<override>> Description : string <<get>>
+    + <<override>> Cost() : double
+}
+CondimentDecorator <|-- WhipCondiment
+WhipCondiment --> "_beverage" Beverage
+@enduml

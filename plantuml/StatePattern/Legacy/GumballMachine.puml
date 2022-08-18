@@ -1,0 +1,8 @@
+@startuml
+class GumballMachine {
+    + GumballMachine(count:int)
+    + InsertQuarter() : void
+    + EjectQuarter() : void
+    + TurnCrank() : void
+}
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+class MochaCondiment {
+    + MochaCondiment(beverage:Beverage)
+    + <<override>> Description : string <<get>>
+    + <<override>> Cost() : double
+}
+CondimentDecorator <|-- MochaCondiment
+MochaCondiment --> "_beverage" Beverage
+@enduml

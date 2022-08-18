@@ -1,0 +1,10 @@
+@startuml
+class Hammer {
+    + Hammer(enchantment:IEnchantment)
+    + Wield() : void
+    + Swing() : void
+    + Unwield() : void
+    + GetEnchantment() : IEnchantment
+}
+IWeapon <|-- Hammer
+@enduml

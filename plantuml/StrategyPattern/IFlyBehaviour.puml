@@ -1,0 +1,5 @@
+@startuml
+interface IFlyBehaviour {
+    Fly() : void
+}
+@enduml

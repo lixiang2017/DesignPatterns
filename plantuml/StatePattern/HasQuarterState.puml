@@ -1,0 +1,11 @@
+@startuml
+class HasQuarterState {
+    + HasQuarterState(gumballMachine:GumballMachine)
+    + InsertQuarter() : void
+    + EjectQuarter() : void
+    + TurnCrank() : void
+    + Dispense() : void
+}
+IState <|-- HasQuarterState
+HasQuarterState o-> "_random" Random
+@enduml

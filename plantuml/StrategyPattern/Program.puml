@@ -1,0 +1,13 @@
+@startuml
+class Duck {
+}
+class MallardDuck {
+    + MallardDuck()
+    + Display() : void
+}
+class Program <<static>> {
+}
+Duck --> "Quacker" IQuackBehaviour
+Duck --> "Flyer" IFlyBehaviour
+Duck <|-- MallardDuck
+@enduml

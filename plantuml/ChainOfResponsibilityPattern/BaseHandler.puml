@@ -1,0 +1,7 @@
+@startuml
+abstract class BaseHandler {
+    + AddChain(handler:IHandler) : void
+    + {abstract} Handle(values:double[], action:string) : double?
+}
+IHandler <|-- BaseHandler
+@enduml

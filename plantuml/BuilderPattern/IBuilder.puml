@@ -1,0 +1,9 @@
+@startuml
+interface IBuilder {
+    AddIngredients() : void
+    AddShape() : void
+    AddSize() : void
+    Reset() : void
+    Build() : Hamburger
+}
+@enduml

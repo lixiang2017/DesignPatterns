@@ -1,0 +1,8 @@
+@startuml
+class MacroCommand {
+    + MacroCommand(commands:ICommand[])
+    + Execute() : void
+    + Undo() : void
+}
+ICommand <|-- MacroCommand
+@enduml

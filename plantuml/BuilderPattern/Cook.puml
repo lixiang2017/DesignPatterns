@@ -1,0 +1,7 @@
+@startuml
+class Cook {
+    + Cook(builder:IBuilder)
+    + ChangeBuilder(builder:IBuilder) : void
+    + Build() : Hamburger
+}
+@enduml

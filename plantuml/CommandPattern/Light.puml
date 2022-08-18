@@ -1,0 +1,5 @@
+@startuml
+class Light {
+    + Light(name:string)
+}
+@enduml

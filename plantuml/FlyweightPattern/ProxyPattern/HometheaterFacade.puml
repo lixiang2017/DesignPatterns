@@ -1,0 +1,8 @@
+@startuml
+class HomeTheatreFacade {
+    + HomeTheatreFacade(dimmer:Dimmer, dvd:Dvd, dvdPlayer:DvdPlayer)
+    + WatchMovie() : void
+    + Pause() : void
+    + Resume() : void
+}
+@enduml

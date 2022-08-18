@@ -1,0 +1,7 @@
+@startuml
+class WildTurkey {
+    + Gobble() : void
+    + Fly() : void
+}
+ITurkey <|-- WildTurkey
+@enduml

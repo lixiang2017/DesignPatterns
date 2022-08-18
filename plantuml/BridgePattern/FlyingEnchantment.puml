@@ -1,0 +1,8 @@
+@startuml
+class FlyingEnchantment {
+    + OnActivate() : void
+    + Apply() : void
+    + OnDeactivate() : void
+}
+IEnchantment <|-- FlyingEnchantment
+@enduml

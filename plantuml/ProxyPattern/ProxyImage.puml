@@ -1,0 +1,7 @@
+@startuml
+class ProxyImage {
+    + ProxyImage(fileName:string)
+    + display() : void
+}
+Image <|-- ProxyImage
+@enduml

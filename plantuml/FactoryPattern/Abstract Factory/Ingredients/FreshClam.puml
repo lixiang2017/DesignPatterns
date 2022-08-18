@@ -1,0 +1,6 @@
+@startuml
+class FreshClam {
+    + Name : string <<get>>
+}
+IClam <|-- FreshClam
+@enduml

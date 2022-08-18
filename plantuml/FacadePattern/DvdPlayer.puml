@@ -1,0 +1,9 @@
+@startuml
+class DvdPlayer {
+    + On() : void
+    + Insert(dvd:Dvd) : void
+    + Play() : void
+    + Pause() : void
+    + Resume() : void
+}
+@enduml

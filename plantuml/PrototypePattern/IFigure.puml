@@ -1,0 +1,6 @@
+@startuml
+interface IFigure {
+    GetInfo() : void
+}
+ICloneable <|-- IFigure
+@enduml

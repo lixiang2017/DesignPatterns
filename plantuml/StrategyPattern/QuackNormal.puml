@@ -1,0 +1,6 @@
+@startuml
+class QuackNormal {
+    + Quack() : void
+}
+IQuackBehaviour <|-- QuackNormal
+@enduml

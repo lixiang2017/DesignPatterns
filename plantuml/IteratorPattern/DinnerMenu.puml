@@ -1,0 +1,6 @@
+@startuml
+class DinnerMenu {
+    + DinnerMenu()
+}
+DinnerMenu --> "Items" IEnumerable
+@enduml

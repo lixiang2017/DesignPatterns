@@ -1,0 +1,6 @@
+@startuml
+class OnOffStruct <<struct>> {
+}
+OnOffStruct --> "On" ICommand
+OnOffStruct --> "Off" ICommand
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+class WifesHamburgerBuilder {
+    + AddIngredients() : void
+    + AddShape() : void
+    + AddSize() : void
+    + Reset() : void
+    + Build() : Hamburger
+}
+IBuilder <|-- WifesHamburgerBuilder
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+abstract class Colleague {
+    + Colleague(mediator:Mediator)
+    + <<virtual>> Send(message:string) : void
+    + {abstract} Notify(message:string) : void
+}
+@enduml

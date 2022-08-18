@@ -1,0 +1,9 @@
+@startuml
+class BedroomVisitor {
+    + VisitApartment(apartment:Apartment) : void
+    + VisitStudio(studio:Studio) : void
+    + VisitBedroom(bedroom:Bedroom) : void
+    + VisitLivingRoom(livingRoom:LivingRoom) : void
+}
+IUnitVisitor <|-- BedroomVisitor
+@enduml

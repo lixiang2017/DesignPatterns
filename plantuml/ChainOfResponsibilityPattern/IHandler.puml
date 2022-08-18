@@ -1,0 +1,6 @@
+@startuml
+interface IHandler {
+    AddChain(handler:IHandler) : void
+    Handle(values:double[], action:string) : double?
+}
+@enduml

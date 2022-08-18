@@ -1,0 +1,10 @@
+@startuml
+class WinnerState {
+    + WinnerState(gumballMachine:GumballMachine)
+    + InsertQuarter() : void
+    + EjectQuarter() : void
+    + TurnCrank() : void
+    + Dispense() : void
+}
+IState <|-- WinnerState
+@enduml

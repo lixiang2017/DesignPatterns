@@ -1,0 +1,7 @@
+@startuml
+interface IEnchantment {
+    OnActivate() : void
+    Apply() : void
+    OnDeactivate() : void
+}
+@enduml

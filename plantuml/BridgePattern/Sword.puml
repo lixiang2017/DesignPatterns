@@ -1,0 +1,10 @@
+@startuml
+class Sword {
+    + Sword(enchantment:IEnchantment)
+    + Wield() : void
+    + Swing() : void
+    + Unwield() : void
+    + GetEnchantment() : IEnchantment
+}
+IWeapon <|-- Sword
+@enduml

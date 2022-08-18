@@ -1,0 +1,6 @@
+@startuml
+class DeepDish {
+    + Name : string <<get>>
+}
+IDough <|-- DeepDish
+@enduml

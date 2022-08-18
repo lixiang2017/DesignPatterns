@@ -1,0 +1,6 @@
+@startuml
+class BeverageFlyweightFactory {
+    + BeverageFlyweightFactory()
+    + MakeBeverage(type:BeverageType) : IBeverage
+}
+@enduml

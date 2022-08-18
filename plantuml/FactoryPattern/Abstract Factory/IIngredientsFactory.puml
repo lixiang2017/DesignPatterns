@@ -1,0 +1,9 @@
+@startuml
+interface IIngredientsFactory {
+    CreateDough() : IDough
+    CreateVeggies() : IEnumerable<IVeggies>
+    CreateSauce() : ISauce
+    CreateCheese() : ICheese
+    CreateClam() : IClam
+}
+@enduml

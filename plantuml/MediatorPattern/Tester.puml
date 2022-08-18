@@ -1,0 +1,7 @@
+@startuml
+class Tester {
+    + Tester(mediator:Mediator)
+    + <<override>> Notify(message:string) : void
+}
+Colleague <|-- Tester
+@enduml

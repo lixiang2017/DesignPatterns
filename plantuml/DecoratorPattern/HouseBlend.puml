@@ -1,0 +1,8 @@
+@startuml
+class HouseBlend {
+    + HouseBlend()
+    + <<override>> Description : string <<get>>
+    + <<override>> Cost() : double
+}
+Beverage <|-- HouseBlend
+@enduml

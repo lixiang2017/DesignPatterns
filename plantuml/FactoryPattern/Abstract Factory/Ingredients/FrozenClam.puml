@@ -1,0 +1,6 @@
+@startuml
+class FrozenClam {
+    + Name : string <<get>>
+}
+IClam <|-- FrozenClam
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+class Programmer {
+    + Programmer(mediator:Mediator)
+    + <<override>> Notify(message:string) : void
+}
+Colleague <|-- Programmer
+@enduml

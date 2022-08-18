@@ -1,0 +1,6 @@
+@startuml
+class SubtractionHandler {
+    + <<override>> Handle(values:double[], action:string) : double?
+}
+BaseHandler <|-- SubtractionHandler
+@enduml

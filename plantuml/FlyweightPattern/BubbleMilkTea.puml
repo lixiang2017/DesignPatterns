@@ -1,0 +1,7 @@
+@startuml
+class BubbleMilkTea {
+    + BubbleMilkTea()
+    + Drink() : void
+}
+IBeverage <|-- BubbleMilkTea
+@enduml

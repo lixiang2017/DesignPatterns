@@ -1,0 +1,10 @@
+@startuml
+class Person {
+    + Name : string <<get>>
+    + Age : int <<get>>
+    + Person(name:string, age:int)
+    + CompareTo(obj:object) : int
+    + <<override>> ToString() : string
+}
+IComparable <|-- Person
+@enduml

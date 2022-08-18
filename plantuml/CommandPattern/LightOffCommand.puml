@@ -1,0 +1,8 @@
+@startuml
+class LightOffCommand {
+    + LightOffCommand(l:Light)
+    + Execute() : void
+    + Undo() : void
+}
+ICommand <|-- LightOffCommand
+@enduml

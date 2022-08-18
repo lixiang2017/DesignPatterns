@@ -1,0 +1,9 @@
+@startuml
+class ManagerMediator {
+    + <<override>> Send(message:string, colleague:Colleague) : void
+}
+Mediator <|-- ManagerMediator
+ManagerMediator --> "Customer" Colleague
+ManagerMediator --> "Programmer" Colleague
+ManagerMediator --> "Tester" Colleague
+@enduml

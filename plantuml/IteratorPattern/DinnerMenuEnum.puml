@@ -1,0 +1,11 @@
+@startuml
+class DinnerMenuEnum {
+    + DinnerMenuEnum(items:Menu[])
+    + Dispose() : void
+    + MoveNext() : bool
+    + Reset() : void
+    Current : object <<get>>
+}
+IEnumerator <|-- DinnerMenuEnum
+DinnerMenuEnum --> "Current" Menu
+@enduml

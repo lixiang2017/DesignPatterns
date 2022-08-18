@@ -1,0 +1,8 @@
+@startuml
+class SoulEatingEnchantment {
+    + OnActivate() : void
+    + Apply() : void
+    + OnDeactivate() : void
+}
+IEnchantment <|-- SoulEatingEnchantment
+@enduml

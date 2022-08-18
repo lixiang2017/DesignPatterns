@@ -1,0 +1,5 @@
+@startuml
+interface IBeverage {
+    Drink() : void
+}
+@enduml

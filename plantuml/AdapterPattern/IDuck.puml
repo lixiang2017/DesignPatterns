@@ -1,0 +1,6 @@
+@startuml
+interface IDuck {
+    Quack() : void
+    Fly() : void
+}
+@enduml

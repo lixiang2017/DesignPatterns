@@ -1,0 +1,5 @@
+@startuml
+interface IClam {
+    Name : string <<get>>
+}
+@enduml

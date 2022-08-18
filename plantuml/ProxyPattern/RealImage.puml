@@ -1,0 +1,7 @@
+@startuml
+class RealImage {
+    + RealImage(fileName:string)
+    + display() : void
+}
+Image <|-- RealImage
+@enduml

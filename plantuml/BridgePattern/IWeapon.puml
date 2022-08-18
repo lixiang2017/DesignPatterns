@@ -1,0 +1,8 @@
+@startuml
+interface IWeapon {
+    Wield() : void
+    Swing() : void
+    Unwield() : void
+    GetEnchantment() : IEnchantment
+}
+@enduml

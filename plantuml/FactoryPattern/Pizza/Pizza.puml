@@ -1,0 +1,6 @@
+@startuml
+abstract class Pizza {
+    + Color : string
+    + Name : string <<protected get>> <<set>>
+}
+@enduml

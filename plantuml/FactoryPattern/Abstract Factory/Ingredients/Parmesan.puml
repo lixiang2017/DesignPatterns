@@ -1,0 +1,6 @@
+@startuml
+class Parmesan {
+    + Name : string <<get>>
+}
+ICheese <|-- Parmesan
+@enduml

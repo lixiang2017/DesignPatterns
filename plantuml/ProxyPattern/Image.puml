@@ -1,0 +1,5 @@
+@startuml
+interface Image {
+    display() : void
+}
+@enduml

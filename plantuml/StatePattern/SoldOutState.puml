@@ -1,0 +1,11 @@
+@startuml
+class SoldOutState {
+    + SoldOutState(gumballMachine:GumballMachine)
+    + InsertQuarter() : void
+    + EjectQuarter() : void
+    + TurnCrank() : void
+    + Dispense() : void
+}
+IState <|-- SoldOutState
+SoldOutState --> "Machine" GumballMachine
+@enduml

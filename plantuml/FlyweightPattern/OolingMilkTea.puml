@@ -1,0 +1,7 @@
+@startuml
+class OolingMilkTea {
+    + OolingMilkTea()
+    + Drink() : void
+}
+IBeverage <|-- OolingMilkTea
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+class ChicagoIngredientsFactory {
+    CreateCheese() : ICheese
+    CreateClam() : IClam
+    CreateDough() : IDough
+    CreateSauce() : ISauce
+    CreateVeggies() : IEnumerable<IVeggies>
+}
+IIngredientsFactory <|-- ChicagoIngredientsFactory
+@enduml

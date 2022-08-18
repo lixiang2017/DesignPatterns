@@ -1,0 +1,8 @@
+@startuml
+class DinnerMenuIterator {
+    + DinnerMenuIterator(items:Menu[])
+    GetEnumerator() : IEnumerator
+    + GetEnumerator() : IEnumerator
+}
+IEnumerable <|-- DinnerMenuIterator
+@enduml

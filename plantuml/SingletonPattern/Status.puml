@@ -1,0 +1,10 @@
+@startuml
+class ChocolateBoiler <<partial>> {
+}
+enum Status {
+    Empty,
+    InProgress,
+    Boiled,
+}
+ChocolateBoiler +-- Status
+@enduml

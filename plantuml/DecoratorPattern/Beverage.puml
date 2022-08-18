@@ -1,0 +1,6 @@
+@startuml
+abstract class Beverage {
+    + {abstract} Description : string <<get>>
+    + {abstract} Cost() : double
+}
+@enduml

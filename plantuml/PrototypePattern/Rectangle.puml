@@ -1,0 +1,10 @@
+@startuml
+class Rectangle {
+    <<readonly>> _width : int
+    <<readonly>> _height : int
+    + Rectangle(w:int, h:int)
+    + Clone() : object
+    + GetInfo() : void
+}
+IFigure <|-- Rectangle
+@enduml

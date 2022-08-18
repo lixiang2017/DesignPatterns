@@ -1,0 +1,8 @@
+@startuml
+class DarkRoast {
+    + DarkRoast()
+    + <<override>> Description : string <<get>>
+    + <<override>> Cost() : double
+}
+Beverage <|-- DarkRoast
+@enduml

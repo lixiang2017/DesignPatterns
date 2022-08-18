@@ -1,0 +1,8 @@
+@startuml
+enum State {
+    Sold,
+    HasQuarters,
+    NoQuarters,
+    NoGumballs,
+}
+@enduml

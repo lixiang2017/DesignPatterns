@@ -1,0 +1,8 @@
+@startuml
+class Apartment {
+    + Apartment(units:Unit[])
+    + <<override>> Accept(visitor:IUnitVisitor) : void
+    + <<override>> ToString() : string
+}
+Unit <|-- Apartment
+@enduml

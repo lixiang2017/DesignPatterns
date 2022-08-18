@@ -1,0 +1,5 @@
+@startuml
+interface IDough {
+    Name : string <<get>>
+}
+@enduml

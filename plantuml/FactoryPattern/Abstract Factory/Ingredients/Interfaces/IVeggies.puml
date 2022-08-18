@@ -1,0 +1,5 @@
+@startuml
+interface IVeggies {
+    Name : string <<get>>
+}
+@enduml

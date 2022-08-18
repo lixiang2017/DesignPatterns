@@ -1,0 +1,9 @@
+@startuml
+class Menu {
+    + Name : string <<get>>
+    + Description : string <<get>>
+    + Vegetarian : bool <<get>>
+    + Price : double <<get>>
+    + Menu(name:string, description:string, price:double, vegetarian:bool)
+}
+@enduml

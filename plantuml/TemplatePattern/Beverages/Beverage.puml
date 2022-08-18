@@ -1,0 +1,7 @@
+@startuml
+abstract class Beverage {
+    + Prepare() : void
+    + WantsCondiments : bool <<set>>
+    + AddSugar : int <<get>> <<set>>
+}
+@enduml

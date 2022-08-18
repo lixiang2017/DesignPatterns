@@ -1,0 +1,16 @@
+@startuml
+class GumballMachine {
+    + Count : int <<get>>
+    + GumballMachine(count:int)
+    + InsertQuarter() : void
+    + EjectQuarter() : void
+    + TurnCrank() : void
+    + ReleaseBall() : void
+}
+GumballMachine --> "SoldOutState" IState
+GumballMachine --> "NoQuarterState" IState
+GumballMachine --> "HasQuarterState" IState
+GumballMachine --> "SoldState" IState
+GumballMachine --> "WinnerState" IState
+GumballMachine --> "State" IState
+@enduml

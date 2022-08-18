@@ -1,0 +1,5 @@
+@startuml
+interface ISauce {
+    Name : string <<get>>
+}
+@enduml

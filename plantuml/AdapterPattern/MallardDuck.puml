@@ -1,0 +1,7 @@
+@startuml
+class MallardDuck {
+    + Quack() : void
+    + Fly() : void
+}
+IDuck <|-- MallardDuck
+@enduml

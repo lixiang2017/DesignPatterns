@@ -1,0 +1,8 @@
+@startuml
+class Studio {
+    + Studio(units:Unit[])
+    + <<override>> Accept(visitor:IUnitVisitor) : void
+    + <<override>> ToString() : string
+}
+Unit <|-- Studio
+@enduml

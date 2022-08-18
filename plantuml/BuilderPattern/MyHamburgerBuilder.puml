@@ -1,0 +1,10 @@
+@startuml
+class MyHamburgerBuilder {
+    + AddIngredients() : void
+    + AddShape() : void
+    + AddSize() : void
+    + Reset() : void
+    + Build() : Hamburger
+}
+IBuilder <|-- MyHamburgerBuilder
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+class SoldState {
+    + SoldState(gumballMachine:GumballMachine)
+    + InsertQuarter() : void
+    + EjectQuarter() : void
+    + TurnCrank() : void
+    + Dispense() : void
+}
+IState <|-- SoldState
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+class Menu {
+    + Menu(name:string, description:string)
+    + <<override>> Add(component:MenuComponent) : void
+    + <<override>> Remove(component:MenuComponent) : void
+    + <<override>> GetChild(i:int) : MenuComponent
+    + <<override>> Name : string <<get>>
+    + <<override>> Description : string <<get>>
+    + <<override>> Print() : void
+}
+class "List`1"<T> {
+}
+MenuComponent <|-- Menu
+Menu o-> "_components<MenuComponent>" "List`1"
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+class CheesePizza {
+    + CheesePizza(ing:IIngredientsFactory)
+}
+Pizza <|-- CheesePizza
+CheesePizza --> "_ingredients" IIngredientsFactory
+@enduml

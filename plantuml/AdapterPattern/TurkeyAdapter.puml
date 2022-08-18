@@ -1,0 +1,8 @@
+@startuml
+class TurkeyAdapter {
+    + TurkeyAdapter(turkey:ITurkey)
+    + Quack() : void
+    + Fly() : void
+}
+IDuck <|-- TurkeyAdapter
+@enduml

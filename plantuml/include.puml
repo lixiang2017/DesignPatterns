@@ -1,0 +1,205 @@
+@startuml
+!include ./IteratorPattern/BreakfastMenu.puml
+!include ./IteratorPattern/Client.puml
+!include ./IteratorPattern/DinnerMenuIterator.puml
+!include ./IteratorPattern/DinnerMenuEnum.puml
+!include ./IteratorPattern/Menu.puml
+!include ./IteratorPattern/BreakfastMenuEnum.puml
+!include ./IteratorPattern/BreakfastMenuIterator.puml
+!include ./IteratorPattern/DinnerMenu.puml
+!include ./IteratorPattern/Program.puml
+!include ./BridgePattern/SoulEatingEnchantment.puml
+!include ./BridgePattern/Sword.puml
+!include ./BridgePattern/Hammer.puml
+!include ./BridgePattern/FlyingEnchantment.puml
+!include ./BridgePattern/IWeapon.puml
+!include ./BridgePattern/IEnchantment.puml
+!include ./BridgePattern/Program.puml
+!include ./StrategyPattern/QuackSqueak.puml
+!include ./StrategyPattern/QuackNope.puml
+!include ./StrategyPattern/FlyWings.puml
+!include ./StrategyPattern/QuackNormal.puml
+!include ./StrategyPattern/FlyNope.puml
+!include ./StrategyPattern/IQuackBehaviour.puml
+!include ./StrategyPattern/IFlyBehaviour.puml
+!include ./StrategyPattern/Program.puml
+!include ./MediatorPattern/Mediator.puml
+!include ./MediatorPattern/ManagerMediator.puml
+!include ./MediatorPattern/Tester.puml
+!include ./MediatorPattern/Customer.puml
+!include ./MediatorPattern/Colleague.puml
+!include ./MediatorPattern/Programmer.puml
+!include ./MediatorPattern/Program.puml
+!include ./ChainOfResponsibilityPattern/MultiplicationHandler.puml
+!include ./ChainOfResponsibilityPattern/IHandler.puml
+!include ./ChainOfResponsibilityPattern/AdditionHandler.puml
+!include ./ChainOfResponsibilityPattern/BaseHandler.puml
+!include ./ChainOfResponsibilityPattern/SubtractionHandler.puml
+!include ./ChainOfResponsibilityPattern/Program.puml
+!include ./StatePattern/NoQuarterState.puml
+!include ./StatePattern/GumballMachine.puml
+!include ./StatePattern/WinnerState.puml
+!include ./StatePattern/SoldOutState.puml
+!include ./StatePattern/IState.puml
+!include ./StatePattern/SoldState.puml
+!include ./StatePattern/HasQuarterState.puml
+!include ./StatePattern/Program.puml
+!include ./ObserverPattern/Weather.puml
+!include ./ObserverPattern/WeatherMonitor.puml
+!include ./ObserverPattern/WeatherSupplier.puml
+!include ./ObserverPattern/Unsubscriber.puml
+!include ./ObserverPattern/Program.puml
+!include ./DecoratorPattern/WhipCondiment.puml
+!include ./DecoratorPattern/CondimentDecorator.puml
+!include ./DecoratorPattern/MochaCondiment.puml
+!include ./DecoratorPattern/Espresso.puml
+!include ./DecoratorPattern/DarkRoast.puml
+!include ./DecoratorPattern/Beverage.puml
+!include ./DecoratorPattern/HouseBlend.puml
+!include ./DecoratorPattern/Program.puml
+!include ./FacadePattern/DvdPlayer.puml
+!include ./FacadePattern/HometheaterFacade.puml
+!include ./FacadePattern/Dimmer.puml
+!include ./FacadePattern/Dvd.puml
+!include ./FacadePattern/Program.puml
+!include ./SingletonPattern/Status.puml
+!include ./SingletonPattern/ChocolateBoiler.puml
+!include ./SingletonPattern/Program.puml
+!include ./VisitorPattern/IUnitVisitor.puml
+!include ./VisitorPattern/LivingRoomVisitor.puml
+!include ./VisitorPattern/Apartment.puml
+!include ./VisitorPattern/Studio.puml
+!include ./VisitorPattern/Bedroom.puml
+!include ./VisitorPattern/ApartmentVisitor.puml
+!include ./VisitorPattern/StudioVisitor.puml
+!include ./VisitorPattern/LivingRoom.puml
+!include ./VisitorPattern/BedroomVisitor.puml
+!include ./VisitorPattern/Unit.puml
+!include ./VisitorPattern/Program.puml
+!include ./FactoryPattern/Program.puml
+!include ./FlyweightPattern/BeverageFlyweightFactory.puml
+!include ./FlyweightPattern/IBeverage.puml
+!include ./FlyweightPattern/BubbleTeaShop.puml
+!include ./FlyweightPattern/OolingMilkTea.puml
+!include ./FlyweightPattern/BubbleMilkTea.puml
+!include ./FlyweightPattern/FoamMilkTea.puml
+!include ./FlyweightPattern/CoconutMilkTea.puml
+!include ./FlyweightPattern/BeverageType.puml
+!include ./FlyweightPattern/Program.puml
+!include ./BuilderPattern/WifesHamburgerBuilder.puml
+!include ./BuilderPattern/Hamburger.puml
+!include ./BuilderPattern/Cook.puml
+!include ./BuilderPattern/IBuilder.puml
+!include ./BuilderPattern/MyHamburgerBuilder.puml
+!include ./BuilderPattern/Program.puml
+!include ./CompositePattern/Client.puml
+!include ./CompositePattern/MenuComponent.puml
+!include ./CompositePattern/Menu.puml
+!include ./CompositePattern/MenuItem.puml
+!include ./CompositePattern/Program.puml
+!include ./ProxyPattern/RealImage.puml
+!include ./ProxyPattern/Image.puml
+!include ./ProxyPattern/ProxyImage.puml
+!include ./ProxyPattern/Program.puml
+!include ./PrototypePattern/Circle.puml
+!include ./PrototypePattern/IFigure.puml
+!include ./PrototypePattern/Rectangle.puml
+!include ./PrototypePattern/Program.puml
+!include ./TemplatePattern/Program.puml
+!include ./AdapterPattern/MallardDuck.puml
+!include ./AdapterPattern/IDuck.puml
+!include ./AdapterPattern/ITurkey.puml
+!include ./AdapterPattern/TurkeyAdapter.puml
+!include ./AdapterPattern/WildTurkey.puml
+!include ./AdapterPattern/Program.puml
+!include ./CommandPattern/GarageDoorCloseCommand.puml
+!include ./CommandPattern/RemoteControl.puml
+!include ./CommandPattern/OnOffStruct.puml
+!include ./CommandPattern/ICommand.puml
+!include ./CommandPattern/NoCommand.puml
+!include ./CommandPattern/Light.puml
+!include ./CommandPattern/MacroCommand.puml
+!include ./CommandPattern/LightOffCommand.puml
+!include ./CommandPattern/GarageDoorOpenCommand.puml
+!include ./CommandPattern/Garage.puml
+!include ./CommandPattern/LightOnCommand.puml
+!include ./CommandPattern/Program.puml
+!include ./StatePattern/Legacy/GumballMachine.puml
+!include ./StatePattern/Legacy/State.puml
+!include ./FactoryPattern/Abstract Factory/ChicagoIngredientsFactory.puml
+!include ./FactoryPattern/Abstract Factory/IIngredientsFactory.puml
+!include ./FactoryPattern/Abstract Factory/NYIngredientsFactory.puml
+!include ./FactoryPattern/Factory Method/PizzaFactory.puml
+!include ./FactoryPattern/Factory Method/ChicagoPizzaFactory.puml
+!include ./FactoryPattern/Factory Method/NYPizzaFactory.puml
+!include ./FactoryPattern/Pizza/Pizza.puml
+!include ./FactoryPattern/Pizza/CheesePizza.puml
+!include ./FactoryPattern/Pizza/ClamPizza.puml
+!include ./FactoryPattern/Pizza/VeggiePizza.puml
+!include ./FlyweightPattern/ProxyPattern/DvdPlayer.puml
+!include ./FlyweightPattern/ProxyPattern/HometheaterFacade.puml
+!include ./FlyweightPattern/ProxyPattern/Dimmer.puml
+!include ./FlyweightPattern/ProxyPattern/Dvd.puml
+!include ./FlyweightPattern/ProxyPattern/Program.puml
+!include ./TemplatePattern/Comparable/Person.puml
+!include ./TemplatePattern/Beverages/Tea.puml
+!include ./TemplatePattern/Beverages/Beverage.puml
+!include ./TemplatePattern/Beverages/Coffee.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/Olive.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/Cucumber.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/CherryTomato.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/Pepper.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/Mozarella.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/Onion.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/FreshClam.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/Parmesan.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/FrozenClam.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/ThinCrust.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/DeepDish.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/PlumTomato.puml
+!include ./IteratorPattern/obj/Debug/netcoreapp2.0/IteratorPattern.AssemblyInfo.puml
+!include ./IteratorPattern/obj/Debug/netcoreapp2.0/.NETCoreApp,Version=v2.0.AssemblyAttributes.puml
+!include ./BridgePattern/obj/Debug/netcoreapp2.1/.NETCoreApp,Version=v2.1.AssemblyAttributes.puml
+!include ./BridgePattern/obj/Debug/netcoreapp2.1/BridgePattern.AssemblyInfo.puml
+!include ./StrategyPattern/obj/Debug/netcoreapp2.0/StrategyPattern.AssemblyInfo.puml
+!include ./StrategyPattern/obj/Debug/netcoreapp2.0/.NETCoreApp,Version=v2.0.AssemblyAttributes.puml
+!include ./MediatorPattern/obj/Debug/netcoreapp2.1/.NETCoreApp,Version=v2.1.AssemblyAttributes.puml
+!include ./MediatorPattern/obj/Debug/netcoreapp2.1/MediatorPattern.AssemblyInfo.puml
+!include ./ChainOfResponsibilityPattern/obj/Debug/netcoreapp2.1/.NETCoreApp,Version=v2.1.AssemblyAttributes.puml
+!include ./ChainOfResponsibilityPattern/obj/Debug/netcoreapp2.1/ChainOfResponsibilityPattern.AssemblyInfo.puml
+!include ./StatePattern/obj/Debug/netcoreapp2.0/.NETCoreApp,Version=v2.0.AssemblyAttributes.puml
+!include ./StatePattern/obj/Debug/netcoreapp2.0/StatePattern.AssemblyInfo.puml
+!include ./ObserverPattern/obj/Debug/netcoreapp2.0/.NETCoreApp,Version=v2.0.AssemblyAttributes.puml
+!include ./ObserverPattern/obj/Debug/netcoreapp2.0/ObserverPattern.AssemblyInfo.puml
+!include ./DecoratorPattern/obj/Debug/netcoreapp2.0/DecoratorPattern.AssemblyInfo.puml
+!include ./DecoratorPattern/obj/Debug/netcoreapp2.0/.NETCoreApp,Version=v2.0.AssemblyAttributes.puml
+!include ./FacadePattern/obj/Debug/netcoreapp2.0/FacadePattern.AssemblyInfo.puml
+!include ./FacadePattern/obj/Debug/netcoreapp2.0/.NETCoreApp,Version=v2.0.AssemblyAttributes.puml
+!include ./SingletonPattern/obj/Debug/netcoreapp2.0/.NETCoreApp,Version=v2.0.AssemblyAttributes.puml
+!include ./SingletonPattern/obj/Debug/netcoreapp2.0/SingletonPattern.AssemblyInfo.puml
+!include ./VisitorPattern/obj/Debug/netcoreapp2.1/.NETCoreApp,Version=v2.1.AssemblyAttributes.puml
+!include ./VisitorPattern/obj/Debug/netcoreapp2.1/VisitorPattern.AssemblyInfo.puml
+!include ./FactoryPattern/obj/Debug/netcoreapp2.1/.NETCoreApp,Version=v2.1.AssemblyAttributes.puml
+!include ./FactoryPattern/obj/Debug/netcoreapp2.1/FactoryPattern.AssemblyInfo.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/Interfaces/IDough.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/Interfaces/ISauce.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/Interfaces/IVeggies.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/Interfaces/ICheese.puml
+!include ./FactoryPattern/Abstract Factory/Ingredients/Interfaces/IClam.puml
+!include ./FlyweightPattern/obj/Debug/netcoreapp2.1/.NETCoreApp,Version=v2.1.AssemblyAttributes.puml
+!include ./FlyweightPattern/obj/Debug/netcoreapp2.1/FlyweightPattern.AssemblyInfo.puml
+!include ./BuilderPattern/obj/Debug/netcoreapp2.0/.NETCoreApp,Version=v2.0.AssemblyAttributes.puml
+!include ./BuilderPattern/obj/Debug/netcoreapp2.0/BuilderPattern.AssemblyInfo.puml
+!include ./CompositePattern/obj/Debug/netcoreapp2.0/.NETCoreApp,Version=v2.0.AssemblyAttributes.puml
+!include ./CompositePattern/obj/Debug/netcoreapp2.0/CompositePattern.AssemblyInfo.puml
+!include ./ProxyPattern/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.puml
+!include ./ProxyPattern/obj/Debug/netcoreapp3.1/ProxyPattern.AssemblyInfo.puml
+!include ./PrototypePattern/obj/Debug/netcoreapp2.1/.NETCoreApp,Version=v2.1.AssemblyAttributes.puml
+!include ./PrototypePattern/obj/Debug/netcoreapp2.1/PrototypePattern.AssemblyInfo.puml
+!include ./TemplatePattern/obj/Debug/netcoreapp2.0/TemplatePattern.AssemblyInfo.puml
+!include ./TemplatePattern/obj/Debug/netcoreapp2.0/.NETCoreApp,Version=v2.0.AssemblyAttributes.puml
+!include ./AdapterPattern/obj/Debug/netcoreapp2.0/.NETCoreApp,Version=v2.0.AssemblyAttributes.puml
+!include ./AdapterPattern/obj/Debug/netcoreapp2.0/AdapterPattern.AssemblyInfo.puml
+!include ./CommandPattern/obj/Debug/netcoreapp2.0/CommandPattern.AssemblyInfo.puml
+!include ./CommandPattern/obj/Debug/netcoreapp2.0/.NETCoreApp,Version=v2.0.AssemblyAttributes.puml
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+class MenuComponent {
+    + <<virtual>> Add(component:MenuComponent) : void
+    + <<virtual>> Remove(component:MenuComponent) : void
+    + <<virtual>> GetChild(i:int) : MenuComponent
+    + <<virtual>> Name : string <<get>>
+    + <<virtual>> Description : string <<get>>
+    + <<virtual>> Vegetarian : bool <<get>>
+    + <<virtual>> Price : double <<get>>
+    + <<virtual>> Print() : void
+}
+@enduml

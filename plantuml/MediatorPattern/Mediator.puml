@@ -1,0 +1,5 @@
+@startuml
+abstract class Mediator {
+    + {abstract} Send(message:string, colleague:Colleague) : void
+}
+@enduml

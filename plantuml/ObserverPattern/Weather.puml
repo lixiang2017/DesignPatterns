@@ -1,0 +1,8 @@
+@startuml
+class Weather {
+    + Pressure : double <<get>>
+    + Humidity : double <<get>>
+    + Temperature : double <<get>>
+    + Weather(humd:double, pres:double, temp:double)
+}
+@enduml

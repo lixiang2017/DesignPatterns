@@ -1,0 +1,6 @@
+@startuml
+class Cucumber {
+    + Name : string <<get>>
+}
+IVeggies <|-- Cucumber
+@enduml

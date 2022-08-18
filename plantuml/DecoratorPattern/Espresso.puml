@@ -1,0 +1,8 @@
+@startuml
+class Espresso {
+    + Espresso()
+    + <<override>> Description : string <<get>>
+    + <<override>> Cost() : double
+}
+Beverage <|-- Espresso
+@enduml

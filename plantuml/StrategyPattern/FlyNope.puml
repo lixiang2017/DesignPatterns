@@ -1,0 +1,6 @@
+@startuml
+class FlyNope {
+    + Fly() : void
+}
+IFlyBehaviour <|-- FlyNope
+@enduml

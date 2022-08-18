@@ -1,0 +1,9 @@
+@startuml
+class Circle {
+    <<readonly>> _radius : int
+    + Circle(r:int)
+    + Clone() : object
+    + GetInfo() : void
+}
+IFigure <|-- Circle
+@enduml

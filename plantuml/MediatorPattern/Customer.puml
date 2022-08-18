@@ -1,0 +1,7 @@
+@startuml
+class Customer {
+    + Customer(mediator:Mediator)
+    + <<override>> Notify(message:string) : void
+}
+Colleague <|-- Customer
+@enduml

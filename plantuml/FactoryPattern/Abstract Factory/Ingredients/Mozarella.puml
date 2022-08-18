@@ -1,0 +1,6 @@
+@startuml
+class Mozarella {
+    + Name : string <<get>>
+}
+ICheese <|-- Mozarella
+@enduml

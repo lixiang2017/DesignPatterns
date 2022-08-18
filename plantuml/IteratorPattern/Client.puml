@@ -1,0 +1,6 @@
+@startuml
+class Client {
+    + Client(breakfast:BreakfastMenu, dinner:DinnerMenu)
+    + PrintMenu() : void
+}
+@enduml

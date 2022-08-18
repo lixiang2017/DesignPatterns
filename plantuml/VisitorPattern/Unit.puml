@@ -1,0 +1,7 @@
+@startuml
+abstract class Unit {
+    + Unit(units:Unit[])
+    + <<virtual>> Accept(visitor:IUnitVisitor) : void
+    + {abstract} ToString() : string
+}
+@enduml

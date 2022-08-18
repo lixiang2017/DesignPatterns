@@ -1,0 +1,8 @@
+@startuml
+class GarageDoorOpenCommand {
+    + GarageDoorOpenCommand(g:Garage)
+    + Execute() : void
+    + Undo() : void
+}
+ICommand <|-- GarageDoorOpenCommand
+@enduml

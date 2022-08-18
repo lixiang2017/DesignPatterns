@@ -1,0 +1,6 @@
+@startuml
+abstract class CondimentDecorator {
+    + {abstract} <<override>> Description : string <<get>>
+}
+Beverage <|-- CondimentDecorator
+@enduml

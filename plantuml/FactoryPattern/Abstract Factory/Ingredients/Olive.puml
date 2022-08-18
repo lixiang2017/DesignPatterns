@@ -1,0 +1,6 @@
+@startuml
+class Olive {
+    + Name : string <<get>>
+}
+IVeggies <|-- Olive
+@enduml

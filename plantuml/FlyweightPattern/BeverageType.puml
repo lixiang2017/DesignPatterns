@@ -1,0 +1,8 @@
+@startuml
+enum BeverageType {
+    BubbleMilk,
+    FoamMilk,
+    OolongMilk,
+    CoconutMilk,
+}
+@enduml

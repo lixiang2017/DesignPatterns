@@ -1,0 +1,6 @@
+@startuml
+class ThinCrust {
+    + Name : string <<get>>
+}
+IDough <|-- ThinCrust
+@enduml

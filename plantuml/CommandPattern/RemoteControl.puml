@@ -1,0 +1,8 @@
+@startuml
+class RemoteControl {
+    + RemoteControl(slots:int)
+    + PushOn(slot:int) : void
+    + PushOff(slot:int) : void
+    + PushUndo() : void
+}
+@enduml

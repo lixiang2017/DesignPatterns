@@ -1,0 +1,7 @@
+@startuml
+class NoCommand {
+    + Execute() : void
+    + Undo() : void
+}
+ICommand <|-- NoCommand
+@enduml

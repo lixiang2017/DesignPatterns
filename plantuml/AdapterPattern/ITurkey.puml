@@ -1,0 +1,6 @@
+@startuml
+interface ITurkey {
+    Gobble() : void
+    Fly() : void
+}
+@enduml

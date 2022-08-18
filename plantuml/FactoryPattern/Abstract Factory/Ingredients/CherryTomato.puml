@@ -1,0 +1,6 @@
+@startuml
+class CherryTomato {
+    + Name : string <<get>>
+}
+ISauce <|-- CherryTomato
+@enduml

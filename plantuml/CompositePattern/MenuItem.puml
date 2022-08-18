@@ -1,0 +1,11 @@
+@startuml
+class MenuItem {
+    + MenuItem(name:string, description:string, price:double, isveg:bool)
+    + <<override>> Name : string <<get>>
+    + <<override>> Description : string <<get>>
+    + <<override>> Price : double <<get>>
+    + <<override>> Vegetarian : bool <<get>>
+    + <<override>> Print() : void
+}
+MenuComponent <|-- MenuItem
+@enduml

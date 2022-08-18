@@ -1,0 +1,6 @@
+@startuml
+class "Unsubscriber`1"<TWeather> {
+    + Dispose() : void
+}
+IDisposable <|-- "Unsubscriber`1"
+@enduml

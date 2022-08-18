@@ -1,0 +1,10 @@
+@startuml
+class WeatherSupplier {
+    + WeatherSupplier()
+    + Subscribe(observer:IObserver<Weather>) : IDisposable
+    + WeatherConditions(temp:double, humd:double, pres:double) : void
+}
+class "IObservable`1"<T> {
+}
+"IObservable`1" "<Weather>" <|-- WeatherSupplier
+@enduml
